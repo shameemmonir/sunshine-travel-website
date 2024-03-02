@@ -143,36 +143,13 @@ nav a {
     gap: 10px;
 }
 
-/* .row2-image-1 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    /* width: 400px; */
-/* }
+.centered {
+    position: absolute;
+    padding-left: 200px;
+    padding-top: 110px;
+    font-size: 2rem;
+    color: white;
 
-.row2-image-2 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 200px;
-}
-
-.row2-image-3 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 300px;
-} */ */
-
-/* Destination-2 area start  */
-.row img {
-    width: 100%;
-    height: 100%;
-}
-
-.row {
-    height: 400px;
-    display: flex;
 }
 
 /* choose us area style start here  */
