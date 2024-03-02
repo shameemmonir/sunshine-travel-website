@@ -7,6 +7,7 @@ body{
 }
 .header{
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 .header-logo{
     display: flex;
@@ -14,7 +15,10 @@ body{
 .header-logo h3{
     margin-top: 10px;
     margin-left: 10px;
-    font-size: 30px;
+    font-size: 2.2rem;
+}
+.text-primary{
+    color: tomato;
 }
 nav{
     display: flex;
@@ -93,9 +97,160 @@ nav a{
     line-height: 2.6;
 }
 
-@media screen and (max-width: 576px) {
+/* your destination area start here  */
+.destination-container{
+    margin: 80px;
+}
+.destination-description{
+    display: grid;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.destination-title{
+    font-size: 2.3rem;
+    display: flex;
+    justify-content: center;
+    line-height: 2.6;
+}
+.destination-image-row{
+    display: flex;
+    gap: 10px;
+}
+.img-row2{
+    display:flex;
+}
+.row2-image-1{
+    width: 30%;
+}
+.row2-image-2{
+    width: 45%;
+}
+.row2-image-3{
+    width: 25%;
+}
+
+/* choose us area style start here  */
+.choose-us-description{
+    display: grid;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.choose-us-title{
+    font-size: 2.3rem;
+    display: flex;
+    justify-content: center;
+    line-height: 2.6;
+}
+
+/* chosse us area style start  */
+
+.service-contaier{
+    display: flex;
+    margin: 80px;
+    justify-content: space-evenly;
+}
+.hotels-service{
+    height: 250px;
+    width: 500px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 40px;
+    line-height: 1.5;
+}
+.world-class-service{
+    height: 250px;
+    width: 500px;
+    background-color: aquamarine;
+    border-radius: 20px;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 40px;
+    line-height: 1.5;
+}
+.price-guranty-service{
+    margin-left: 400px;
+    height: 250px;
+    width: 500px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 40px;
+    line-height: 1.5;
+    justify-content: center;
+}
+
+/* Newsletter area style start  */
+.newletter-container{
+    margin: 80px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.newsletter-description{
+    height: 250px;
+    width: 500px;
+    padding: 30px;
+    border: 1px solid tomato;
+    border-radius: 20px;
+}
+.newsletter-description hr{
+    margin: 25px 0 25px 0;
+}
+.newsletter-description input{
+    padding: 10px 50px 10px 10px;
+    border: none;
+    background-color: #dfcdcd;
+    border-radius: 5px;
+}
+.btn-subscribe{
+    font-size: 20px;
+    color: white;
+    background-color: rgb(255, 42, 5);
+    border: none;
+    border-radius: 10px;
+    padding: 15px 70px;
+    margin-top: 10px;
+}
+
+.save{
+    border: 1px solid tomato;
+    height: 50px;
+    width: 250px;
+    color: white;
+    background-color: tomato;
+    border-radius: 15px;
+    justify-content: center;
+    margin-top: -100px;
+    padding: 20px 10px 10px 10px;
+
+}
+
+/* Footer section style start  */
+.footer-container{
+    height: 200px;
+    padding: 100px 0 100px 0;
+    background-color: bisque;
+    text-align: center;
+    line-height: 2.5;
+}
+.footer-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-logo h3{
+    margin-left: 20px;
+    font-size: 1.5rem;
+}
+.footer-container hr{
+    margin: 0 120px 0 120px;
+}
+
+/* @media screen and (max-width: 576px) {
     .popular-tours-container{
         ;
     }
     
-}
+} */
