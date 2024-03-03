@@ -48,6 +48,9 @@ nav a {
     color: #474747;
     font-weight: 700;
 }
+.nav-icon{
+    visibility: hidden;
+}
 #home{
     color: tomato;
 }
@@ -61,6 +64,7 @@ nav a {
     background-position: center;
     background-size: contain;
 }
+
 
 .banner-text {
     text-align: center;
@@ -91,12 +95,12 @@ nav a {
 }
 .banner-input input{
     border: none;
-    padding: 10px 0px 10px 10px;
+    padding: 10px 30px 10px 10px;
     border-radius: 5px;
 }
 .banner-input select{
     border: none;
-    padding: 10px 20px 10px 10px;
+    padding: 10px 30px 10px 10px;
     border-radius: 5px;
 }
 .btn-primary {
@@ -412,9 +416,114 @@ nav a {
     margin: 0 120px 0 120px;
 }
 
-/* @media screen and (max-width: 576px) {
-    .popular-tours-container{
-        ;
+/* Responsive area style start  */
+
+@media screen and (max-width: 700px) {
+    .header{
+        flex-direction: column;
     }
     
-} */
+    .nav-items{
+        visibility: hidden;
+    }
+    .nav-icon{
+        visibility: visible;
+    }
+    .banner-text{
+        margin-top: 80px;
+    }
+
+    .banner {
+        display: flex;
+        background-position: cover;
+        background-size: cover;
+        border-radius: 10px;
+    }
+    .banner-input{
+        flex-direction: column;
+        margin-top: 80px;
+        padding: 10px;
+    }
+    #where{
+        margin: 10px 0 10px 0;
+        padding: 10px 110px 10px 10px;
+    }
+    #when{
+        margin: 10px 0 10px 0;
+        padding: 10px 220px 10px 10px;
+    }
+    #select{
+        margin: 10px 0 10px 0;
+        padding: 10px 188px 10px 10px;
+    }
+    .btn-primary{
+        display: flex;
+        margin-top: 10px;
+        padding: 10px 180px 10px 10px;
+    }
+    .banner-input input{
+        border: none;
+        padding: 10px 70px 10px 10px;
+        border-radius: 5px;
+    }
+    .banner-input select{
+        border: none;
+        padding: 10px 150px 10px 10px;
+        border-radius: 5px;
+    }
+    .popular-tours-container{
+        flex-direction: column;
+    }
+    .destination-container{
+        flex-direction: column;
+    }
+    .destination-image-row{
+        flex-direction: column;
+    }
+    .destination-image-row2{
+        flex-direction: column;
+    }
+   
+    .destination-image-row2 img{
+        flex-direction: column;
+        width: 112%;
+    }
+    .choose-us-description{
+        text-align: center;
+    }
+    .service-contaier{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .price-guranty-service{
+        margin-left: 80px;
+    }
+    .deals-discount-description{
+        flex-direction: column;
+    }
+    .deals-discount-container{
+        flex-direction: column;
+    }
+    .deals-discount-description-area{
+        margin-left: 60px;
+    }
+   .popular-tours-container{
+    flex-direction: column;
+   }
+   .country-flag{
+    flex-direction: column;
+    align-items: center;
+   }
+   .newletter-container{
+    flex-direction: column;
+    gap: 15px;
+   }
+   .newsletter-image{
+    width: 115%;
+    border-radius: 10px;
+   }
+   .footer-container{
+    justify-content: center;
+   }
+   
+}
