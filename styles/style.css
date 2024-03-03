@@ -149,7 +149,18 @@ nav a {
     padding-top: 110px;
     font-size: 2rem;
     color: white;
-
+}
+#img-srilanka{
+    padding-left: 160px;
+}
+#img-kashmir{
+    padding-left: 80px;
+}
+#img-north-america{
+    padding-left: 180px;
+}
+#img-bandarban{
+    padding-left: 250px;
 }
 
 /* choose us area style start here  */
