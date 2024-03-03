@@ -240,6 +240,68 @@ nav a {
     line-height: 1.5;
     justify-content: center;
 }
+
+/* Deals & Discount area style here  */
+.deals-discount-container{
+    margin: 80px;
+}
+.deals-discount-description{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.deals-discount-title{
+    font-size: 2.3rem;
+    line-height: 2;
+}
+.deals-discount-description-container{
+    background-image: url(../Images/Group\ 39.png);
+    background-repeat: no-repeat;
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    line-height: 1.5;
+    border-radius: 10px;
+}
+.deals-discount-description-area{
+    width: 500px;
+    height: 250px;
+    margin-top: 50px;
+    padding: 30px;
+    border: 1px solid tomato;
+    border-radius: 10px;
+    background-color: rgba(250, 235, 215, 0.623);
+    margin-left: 550px;
+}
+.deals-discount-description-area h2{
+    color: rgb(241, 46, 11);
+}
+.deals-discount-description-container-2{
+    background-image: url(../Images/Group\ 40.png);
+    background-repeat: no-repeat;
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    line-height: 1.5;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.deals-discount-description-area-2{
+    width: 500px;
+    height: 250px;
+    margin-top: 50px;
+    padding: 30px;
+    border: 1px solid tomato;
+    border-radius: 10px;
+    background-color: rgba(250, 235, 215, 0.623);
+    margin-left: 20px;
+}
+.deals-discount-description-text{
+    display: flex;
+    gap: 50px;
+}
+.deals-discount-description-text img{
+    padding-right: 5px;
+}
 /* visa processing area start  */
 .visa-container{
     margin: 80px;
